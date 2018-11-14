@@ -1,7 +1,5 @@
-project(SrcTest)
- 
 #set( main_source main.cpp )
 
-add_executable(main_source main.cpp)
+add_executable(bin main.cpp newcontainer.h)
 
-install(TARGETS SrcTest RUNTIME DESTINATION bin)
+#install(TARGETS bin RUNTIME DESTINATION bin)
