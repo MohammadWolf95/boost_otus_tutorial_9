@@ -1,4 +1,4 @@
-cmake_minimum_required (VERSION 2.8)
+cmake_minimum_required (VERSION 3.2)
 project (RandomAccessIt VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
 
 set(CMAKE_BINARY_DIR ${CMAKE_SOURCE_DIR}/bin)
