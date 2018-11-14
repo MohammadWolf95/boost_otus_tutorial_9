@@ -11,8 +11,6 @@ enable_testing()
 
 find_package(Boost REQUIRED)
 
-install(TARGETS RandomAccessIt RUNTIME DESTINATION bin)
-
 set(CPACK_GENERATOR DEB)
 
 set(CPACK_PACKAGE_VERSION_MAJOR "${PROJECT_VERSION_MAJOR}")
