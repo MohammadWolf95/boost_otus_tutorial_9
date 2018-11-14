@@ -11,7 +11,7 @@ find_package(Boost REQUIRED)
 
 configure_file(version.h.in version.h)
 
-install(TARGETS RandomAccessIt RUNTIME DESTINATION bin)
+#install(TARGETS RandomAccessIt RUNTIME DESTINATION bin)
 
 set(CPACK_GENERATOR DEB)
 
