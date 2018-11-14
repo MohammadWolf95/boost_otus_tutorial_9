@@ -8,7 +8,7 @@
 BOOST_AUTO_TEST_SUITE(Test2)
 
 BOOST_AUTO_TEST_CASE(List){
-	BOOST_CONCEPT_ASSERT((mylib::RandomAccessIterator<std::list<int>::iterator>));
+	BOOST_CONCEPT_ASSERT((mylib::RandomAccessIterator<std::array<int, 1>::iterator>));
 }
 
 BOOST_AUTO_TEST_SUITE_END()
